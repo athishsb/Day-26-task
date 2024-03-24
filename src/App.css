@@ -1,0 +1,48 @@
+#logo:hover{
+  box-shadow: 0px 0px 18px 0px rgba(30, 195, 30, 0.132);
+}
+.nav-link{
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  padding: 10px 24px !important;
+  line-height: 20px;
+}
+@media screen and (min-width: 1024px){
+  .nav-link:hover,.nav-link:active{
+    color: #0aaa01 !important;
+    border-bottom: 2px solid #0aaa01;
+  }
+}
+.nav-link:hover,.nav-link:active{
+  color: #0aaa01 !important;
+}
+.card{
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
+}
+.card-image-top{
+  height: 11.3125rem;
+  width: 100%;
+}
+.card:hover{
+  box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.46);
+}
+a, a:hover{
+  text-decoration: none !important;
+}
+
+.card-title:hover, #authlink:hover {
+  opacity: 0.8;
+  text-decoration: underline !important;
+}
+.card-title {
+  color: #212529;
+  font-size: 18px;
+  margin: 0px 0px 8px;
+}
+#by{
+  color:#aaaaaa;
+  font-size:14px;
+}
+#authlink,.card-text{
+  color: #707070;
+}
